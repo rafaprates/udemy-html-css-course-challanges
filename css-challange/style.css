@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    border: 5px solid black;
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(175, 175, 175, 0.3);
+}
+
+.price-tag {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.shipping-tag {
+    color:#797979;
+    text-transform: uppercase;
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+a:hover, a.active {
+    text-decoration: none;
+}
+
+main h2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+li {
+    list-style: square;
+}
+
+.add-to-cart {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: black;
+    border: none;
+}
+
+.add-to-cart:hover {
+    color: black;
+    background-color: white;
+}
